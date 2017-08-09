@@ -1,0 +1,118 @@
+$primary-color-dark:   #5D4037;
+$primary-color:        #795548;
+$primary-color-light:  #D7CCC8;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF5252;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+
+.mdl-layout__header{
+  background-color: #aaaa86;
+}
+
+.mdl-menu__outline{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.mdl-button .mdl-button--fab .mdl-button--colored{
+  background-color: $accent-color;
+}
+
+.top-margin{
+  margin-top: 3%;
+}
+
+#app {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 120%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+p{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 170%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+header {
+  margin: 0;
+  height: 56px;
+  padding: 0 16px 0 24px;
+  background-color: #35495E;
+  color: #ffffff;
+}
+
+header span {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: .02em;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+.pix {
+  height: 100px;
+}
+
+.associates img{
+  max-width: 80%;
+  margin: 3%;
+}
+.compliance img{
+  max-width: 80%;
+  margin: 3%;
+}
+.header-image{
+  background-image: url('../3880.jpeg');
+  background-size: cover;
+}
+.inspection-image{
+  background-image: url('../3817.jpeg');
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .header-image {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .inspection-image{
+    height: 200px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media (min-width: 768px) {
+  .header-image {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .inspection-image{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
